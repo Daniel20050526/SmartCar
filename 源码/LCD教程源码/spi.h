@@ -1,3 +1,15 @@
+/**
+ * @file    spi.h
+ * @brief   ST7735S LCD 的 SPI 通信引脚定义与控制宏
+ * @note    引脚分配（SPI2 硬件外设 + GPIO 软件控制）：
+ *          - SCK  时钟      : PB13（SPI2_SCK）
+ *          - MOSI 主机输出  : PB15（SPI2_MOSI）
+ *          - CS   片选      : PA5 （软件控制，低有效）
+ *          - RES  复位      : PB12（软件控制，低有效）
+ *          - DC   数据/命令 : PA12（软件控制，0=命令 1=数据）
+ *          - BL   背光      : PA4 （软件控制，1=点亮）
+ *          数据线只用 MOSI（单线写），SPI 时钟由 APB1 提供
+ */
 #ifndef __SPI_H
 #define __SPI_H			  	 
 #include "delay.h"

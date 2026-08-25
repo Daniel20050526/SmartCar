@@ -1,3 +1,8 @@
+/**
+ * @file    lcd.h
+ * @brief   ST7735S LCD 驱动头文件：屏幕尺寸宏、绘图/显示函数声明与常用颜色宏
+ * @note    LCD 为 128x160 RGB 屏，通过 SPI2 接口驱动（详见 spi.h/spi.c）
+ */
 #ifndef __LCD_H
 #define __LCD_H		
 
