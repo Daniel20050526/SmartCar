@@ -1,3 +1,14 @@
+---
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: ab717a1d0f46268ae2740be0ca6c6f02_7587a8389fd411f1a238525400e6dd8f
+    ReservedCode1: /oI9zkzFg1tu/Man5gHEoNKPIYzfiQrdgxTf+A/bPwKIzMZL1bhH2b259N2e25ywiXNkPDf86kEWug5Co8PScj6//isXxgRovwj8LcdJUMOo6g5cmIdIScbWotAUa8BHtpDt3RWZjn+2mUWpqnNhae4O7ZRHRztJT9rx1ZoIAkoJEIGcetNRJcgIc98=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: ab717a1d0f46268ae2740be0ca6c6f02_7587a8389fd411f1a238525400e6dd8f
+    ReservedCode2: /oI9zkzFg1tu/Man5gHEoNKPIYzfiQrdgxTf+A/bPwKIzMZL1bhH2b259N2e25ywiXNkPDf86kEWug5Co8PScj6//isXxgRovwj8LcdJUMOo6g5cmIdIScbWotAUa8BHtpDt3RWZjn+2mUWpqnNhae4O7ZRHRztJT9rx1ZoIAkoJEIGcetNRJcgIc98=
+---
+
 # 智能车（STM32F103RC 外设驱动学习工程）
 
 基于 STM32F103RC（Cortex-M3）的嵌入式学习项目。工程以一辆智能车为载体，逐步实现常见外设的驱动与控制：板载 LED 流水灯、蜂鸣器、按键（短按 / 长按识别），以及 1.8 寸 ST7735S TFT-LCD（SPI 接口）的显示驱动。代码基于 STM32 标准外设库（V3.5.0）编写，风格简洁，适合作为 STM32 入门与模块复用的参考。
@@ -83,3 +94,4 @@
 - STM32 标准外设库、启动文件及部分底层模板代码版权归 STMicroelectronics 所有，遵循其原始许可条款。
 - LCD 驱动源码参考开源 ST7735S 驱动实现，字库位于 `lcdfont.h`。
 - 本仓库用于学习交流，请在遵守相关协议的前提下使用。
+*（内容由AI生成，仅供参考）*
